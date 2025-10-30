@@ -1,0 +1,286 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.codes
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Project specific
+# Входные и выходные данные (исключаем, так как они содержат конфиденциальную информацию)
+*.xlsx
+*.xls
+*.csv
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+temp/
+tmp/
+*.tmp
+
+# Конфигурационные файлы с чувствительными данными
+config.json
+secrets.py
+credentials.json
+
+# Ollama related
+.ollama/
+ollama_models/
+
+# Резервные копии
+backup/
+*.bak
+*.backup
+
+# Локальные настройки
+local_settings.py
+dev_config.py
+
+# Файлы сессий
+*.session
+
+# Кэш Pandas
+.cache/
+
+# Файлы анализа
+analysis_*.xlsx
+report_*.pdf
+output/
+
+# Тестовые данные
+test_data/
+fixtures/
+
+# Миграции базы данных (если будут добавляться)
+migrations/
+
+# Документация сборки
+docs/_build/
+
+# Package files
+*.deb
+*.rpm
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Файлы для деплоя
+deploy/
+.elasticbeanstalk/
+
+# Статистика и аналитика
+stats.json
+analytics/
+
+# Файлы больших моделей (если будут добавляться)
+*.bin
+*.pth
+*.pt
+*.h5
+*.joblib
+
+# Локальные дампы базы данных
+*.sql
+*.dump
+
+# Файлы блокнотов Jupyter
+*.ipynb
+
+# Файлы настроек редактора
+*.sublime-project
+*.sublime-workspace
+
+# Файлы операционной системы
+.DS_Store?
+._*
+
+# Временные файлы Windows
+~$*
+
+# Файлы резервных копий Office
+~$*.xlsx
+~$*.xls
+
+# Файлы временных блокировок Excel
+*.xlk
+
+# Файлы кэша
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Файлы профилирования
+*.prof
+*.profile
+
+# Файлы дампов памяти
+*.core
+*.dmp
+
+# Файлы покрытия кода
+.coverage
+htmlcov/
+
+# Файлы манифестов пакетов
+MANIFEST
+MANIFEST.in
+
+# Файлы для конкретного этого проекта
+# Исключаем исходные данные опросов и результаты анализа
+/4_dig.xlsx
+/feedback_analysis.xlsx
+
+# Но если хотите включить примеры данных, раскомментируйте и используйте:
+# /example_data/4_dig_example.xlsx
+# /example_data/feedback_analysis_example.xlsx
+
+# Файлы конфигурации Ollama
+ollama_config.json
+
+# Логи обработки
+processing_logs/
+
+# Файлы контрольных точек (checkpoints)
+checkpoints/
+*.ckpt
+
+# Файлы токенов API (если будут использоваться внешние API)
+*.token
+api_keys.txt
+
+# Файлы переменных окружения
+.env
+.env.local
+.env.production
+
+# Файлы для мониторинга
+monitoring/
+performance_metrics.json
+
+# Файлы миграций (если добавится БД)
+alembic.ini
+alembic/
+
+# Файлы кэша моделей AI
+model_cache/
+.cache/ollama/
+
+# Файлы тестовых прогонов
+test_runs/
+experiments/
+
+# Файлы визуализаций
+plots/
+charts/
+*.png
+*.jpg
+*.svg
+
+# Файлы документации (если генерируются автоматически)
+/generated_docs/
+/site/
